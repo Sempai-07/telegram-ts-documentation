@@ -1,0 +1,35 @@
+{
+  "name": "@telegram.ts/documentation",
+  "description": "Documentation for the library telegramsjs",
+  "version": "0.0.3",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "files": [
+    "./dist",
+    "package.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sempai-07/telegram-ts-documentation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sempai-07/telegram-ts-documentation/issues"
+  },
+  "homepage": "https://github.com/Sempai-07/telegram-ts-documentation",
+  "keywords": [
+    "telegram",
+    "documentation",
+    "typescript",
+    "bots",
+    "api",
+    "docs"
+  ],
+  "author": "Vladimir",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}

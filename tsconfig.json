@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["dom.iterable", "es2015", "dom"],
+    "module": "commonjs",
+		"moduleResolution": "node",
+    "rootDir": "./src",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "declarationMap": false,
+    "stripInternal": true,
+    "declaration": true,
+    "sourceMap": false,
+    "outDir": "./dist",
+    "removeComments": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
