@@ -24,7 +24,7 @@ Here's an example of how to use the library:
 ```typescript
 import { Search } from '@telegram.ts/documentation';
 
-const search = new Search('https://raw.githubusercontent.com/Sempai-07/@telegram.ts/documentation/main/src/BaseClient.d.ts');
+const search = new Search('https://raw.githubusercontent.com/Sempai-07/Telegramsjs/main/src/BaseClient.d.ts');
 
 (async () => {
   // Get the function declaration
