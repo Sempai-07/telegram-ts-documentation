@@ -9,7 +9,7 @@
 
 A lightweight TypeScript and JavaScript library for searching the Telegram API documentation.
 
-## Installation
+## 📖 Installation
 
 To install the library, run the following command:
 
@@ -17,7 +17,7 @@ To install the library, run the following command:
 npm install @telegram.ts/documentation
 ```
 
-## Usage
+## ⭐️ Usage
 
 Here's an example of how to use the library:
 
@@ -41,17 +41,17 @@ const search = new Search('https://raw.githubusercontent.com/Sempai-07/@telegram
 })();
 ```
 
-## API
+## 🔥 API
 
 ### `Search`
 
 The main class of the library.
 
-#### Constructor
+#### 🫡 Constructor
 
 - `constructor(fileUrl: string)`: Creates a new instance of the `Search` class with the specified file URL.
 
-#### Methods
+#### 🎮 Methods
 
 - `getContent(): Promise<string | null>`: Retrieves the content of the file from the specified URL.
 
@@ -61,8 +61,6 @@ The main class of the library.
 
 - `getObject(objectName: string): Promise<string>`: Returns the documentation link for the specified object.
 
-## License
+## 📜 License
 
-This library is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-Feel free to customize the content and structure of the `README.md` file to fit your needs.
+This library is licensed under the MIT License. See the [LICENSE](https://github.com/Sempai-07/telegram-ts-documentation/blob/main/LICENSE) file for more details.
